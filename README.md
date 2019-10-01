@@ -39,3 +39,27 @@ Client for the (N)Uber Clone Course on Nomad Academy. ReactJS, Apollo, Typescrip
     "skipLibCheck": true
 }
 ```
+
+---
+
+## 프로젝트 기본 셋팅
+
+### 불필요 파일 / 소스 제거
+
+-   파일 제거
+
+```
+src/App.css
+src/App.test.tsx
+src/index.css
+src/logo.svg
+src/registerServiceWorker.ts
+```
+
+-   삭제 된 파일과 관련 된 import 정보 제거
+
+```
+src
+├── App.tsx
+└── index.tsx
+```
