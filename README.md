@@ -90,3 +90,9 @@ yarn add apollo-boost graphql react-apollo -S
 ```
 yarn add prop-types
 ```
+
+> styled-components
+
+```
+yarn add styled-components
+```
