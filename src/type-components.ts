@@ -1,7 +1,10 @@
 import * as styledComponents from "styled-components";
 import { ThemedStyledComponentsModule } from "styled-components";
 
-import IThemeInterface from "./theme";
+interface IThemeInterface {
+    primaryColor: string;
+    primaryColorInverted: string;
+}
 
 const {
     default: styled,
