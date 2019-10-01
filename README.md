@@ -80,3 +80,13 @@ ex) graphQL-yoga => backend
 ```
 yarn add apollo-boost graphql react-apollo -S
 ```
+
+---
+
+## 추가 라이브러리
+
+> prop-types
+
+```
+yarn add prop-types
+```
