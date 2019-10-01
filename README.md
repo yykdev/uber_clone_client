@@ -95,4 +95,5 @@ yarn add prop-types
 
 ```
 yarn add styled-components
+yarn add @types/styled-components
 ```
