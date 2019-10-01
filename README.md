@@ -17,3 +17,25 @@ Client for the (N)Uber Clone Course on Nomad Academy. ReactJS, Apollo, Typescrip
 ```
  $ npx create-react-app my-app --typescript
 ```
+
+---
+
+### tsconfig.json 셋팅 추가 / 제거
+
+```
+"compilerOptions": {
+
+    ...
+
+    "module": "commonjs",
+
+    ...
+
+    "lib": ["es6", "dom", "esnext.asynciterable"],
+
+    ...
+
+    "esModuleInterop": true,
+    "skipLibCheck": true
+}
+```
