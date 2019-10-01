@@ -63,3 +63,20 @@ src
 ├── App.tsx
 └── index.tsx
 ```
+
+---
+
+## Apollo Boost 셋팅
+
+> 아폴로는 GraphQL 과 통신을 하기 위한 클라이언트
+
+```
+ex) graphQL-yoga => backend
+    apollo => frontend
+```
+
+> Install
+
+```
+yarn add apollo-boost graphql react-apollo -S
+```
