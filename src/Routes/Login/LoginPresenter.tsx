@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, RouteComponentProps } from "react-router-dom";
+import Helmet from "react-helmet";
 import bgImage from "../../images/bg.png";
 import styled from "../../typed-components";
 
@@ -69,6 +70,9 @@ interface IProps extends RouteComponentProps<any> {}
 
 const LoginPresenter: React.SFC<IProps> = () => (
     <Container>
+        <Helmet>
+            <title>Login | Nuber</title>
+        </Helmet>
         <Header>
             <Logo>
                 <Title>Nuber</Title>
@@ -85,7 +89,7 @@ const LoginPresenter: React.SFC<IProps> = () => (
             </Link>
             <Link to={"/social-login"}>
                 <SocialLogin>
-                    <SocialLink>Or connect with social</SocialLink>
+                    🇰🇷 +82 <SocialLink>Or connect with social</SocialLink>
                 </SocialLogin>
             </Link>
         </Footer>
