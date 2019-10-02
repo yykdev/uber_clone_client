@@ -98,3 +98,10 @@ yarn add styled-components
 yarn add @types/styled-components
 yarn add styled-reset
 ```
+
+> react router
+
+```
+yarn add react-router-dom
+yarn add @types/react-router-dom
+```
